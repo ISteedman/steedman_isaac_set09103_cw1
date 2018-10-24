@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Naughty Dog Information</title>
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet"/>
+	<style>
+		body{
+		padding-top: 50px;
+		color: black;
+		}
+		
+		.page{
+		max-width: 1600px;
+		margin: auto;
+		color: black;
+		}
+
+		.headerp{
+		padding-bottom: 100px;
+		}
+		
+		.backgroundcard{
+		background-color: Gainsboro;
+		padding: 30px;
+		margin: 20px;
+		}
+	
+		h1{
+		font:verdana;
+		color:Red;
+		}
+
+		p{
+		color:black;
+		}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!--Navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed"
+		data-toggle="collapse" data-targer="#navbar" aria-expanded="false"
+		aria-controls="navbar">
+			<span class="sr-only">Toggle navigation </span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+			<a class="navbar-brand" href="#home">Naughty Dog Information</a>
+		</div>
+
+		<div id="navbar" class="collapse navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li><a href="#about">About</a></li>
+			<li><a href="/games/">Games</a></li>
+			<li><a href="#social">Social</a></li>
+		</ul>
+		</div>
+	</div>
+	</nav>
+
+	<div class="headerp">
+		<div class="header">
+		<a name="home">
+		<img src="/static/img/logo.jpg" alt="Naughty Dog Logo" style="width:100%;height:800px;" class="center">
+		</div>
+	</div>
+
+<!--About-->
+	<h1><b>About Naughty Dog</b></h1>
+	<div class="backgroundcard">
+	<a name="about">
+	<p class="lead"> Established in 1984, Naughty Dog is one of the most successful and profilic game
+			development studios in the world and flagship first-party studio within Playstation's
+			Worldwide Studios group. From creating the iconic Crash Bandicoot and Jak and Daxter
+			series to modern franchises like Uncharted and The Last of Us, Naughty Dog is responsible
+			for some of the most critically acclaimed and commercially successful games on Sony's
+			PlayStation platforms. Through its use of cutting-edge technology and evocative, 
+			character-driven storytelling, Naughty Dog has received hundereds of the industry and media 
+			awards, while developing a passionate fan base of millions of players around the globe.
+	</p>
+	<p class="lead">
+			Naughty Dog's recent releases include 2016's Uncharted 4: A Theif's End, winner of 
+			numerous Game of the Year awards, and 2017's Uncharted: The Lost Legacy - a new standalone 
+			adventure in the Uncharted series. By December 2017, total global sales for the 
+			Uncharted franchise surpassed 41.7 million copies sold.
+	</p>
+	<p class="lead">
+			Currently, Naughty Dog is a wholly-owned subsidiary of Sony Interactive Entertainment 
+			located in Santa Monica, California.
+	</p>
+	<p class="lead">
+			-Naughty Dog, LLC.</p>
+	
+	
+	</div>
+
+<!--Social-->
+	<h1><b>Social Media</b></h1>
+	<div class="backgroundcard">
+	<a name="social">		
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						Follow Naughty Dog on:
+					</td>
+					<td>
+						<li><a href="https://www.facebook.com/naughtydog/">Facebook</a></li>
+					</td>
+					<td>
+						<li><a href="https://twitter.com/Naughty_Dog">Twitter</a></li>
+					</td>
+					<td>
+						<li><a href="https://www.instagram.com/naughty_dog_inc/">Instagram</a></li>
+					</td>
+					<td>
+						<li><a href="https://www.youtube.com/user/NaughtyDog">Youtube</a></li>
+					</td>
+					
+				</tr>
+			</tbody>
+		</table>
+
+	</div>	
+
+
+	
+</div>
+</body>
+</html>
